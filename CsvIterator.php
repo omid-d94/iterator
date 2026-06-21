@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Iterator;
+namespace Iterator;
 
 use Exception;
 use Iterator;

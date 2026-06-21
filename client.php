@@ -1,13 +1,13 @@
 <?php
 
-use DesignPattern\Iterator\CsvIterator;
+namespace Iterator;
 
 /**
  * The client code.
  */
 
 
-$csv = new DesignPattern\Iterator\CsvIterator(__DIR__ . '/cats.csv');
+$csv = new CsvIterator(__DIR__ . '/cats.csv');
 foreach ($csv as $key => $row) {
     print_r($row);
 }
